@@ -1,10 +1,10 @@
 # Responsibility
 
-Coordinate operations
+Coordinates what the program does
 
 ## Example
 
-Open and parse a document
+Open a file and request parsing
 
 ## Use Case
 

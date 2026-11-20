@@ -1,12 +1,10 @@
-package com.markone;
+package com.markone.presentation;
 
 import javafx.application.Application;
 import javafx.scene.text.Text;
-import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.text.Font;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class MarkOneApp extends Application {

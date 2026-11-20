@@ -1,10 +1,10 @@
 # Responsibility
 
-Display information and respond to user actions
+Handles JavaFX and displays results
 
 ## Example
 
-JavaFX window, controller
+Window, labels, buttons, event handlers
 
 ## Use Case
 

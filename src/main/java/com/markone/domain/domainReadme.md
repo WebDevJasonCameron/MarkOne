@@ -1,10 +1,10 @@
 # Responsibility
 
-Define the data your application works with
+Represents the information being processed
 
 ## Example
 
-Markdown document, heading, paragraph
+Heading type, heading level, heading content
 
 ## Use Case
 

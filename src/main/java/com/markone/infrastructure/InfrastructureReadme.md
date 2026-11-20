@@ -1,10 +1,10 @@
 # Responsibility
 
-Interact with external technology
+Handles files and external technologies
 
 ## Example
 
-Read files, use a Markdown library
+Read Markdown from disk
 
 ## Use Case 
 
