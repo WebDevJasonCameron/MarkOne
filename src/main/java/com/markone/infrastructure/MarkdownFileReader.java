@@ -6,15 +6,24 @@ import java.nio.file.Path;
 
 public class MarkdownFileReader {
 
-    public static void main(String[] args) {
-        Path filePath = Path.of("targetMarkdownFile.md");
+    private String data = "";
 
+    public String getData(Path filePath) {
+        String content = "";
         try {
-            String content = Files.readString(filePath);
+            content = Files.readString(filePath);
             System.out.println(content);
         } catch (IOException e) {
             System.err.println("Failed to read file: " + e.getMessage());
         }
+        return content;
     }
 
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
 }
