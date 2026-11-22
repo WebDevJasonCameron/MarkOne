@@ -6,9 +6,10 @@ import java.nio.file.Path;
 
 public class MarkdownFileReader {
 
-    private String data = "";
+    // ATTs
 
-    public String getData(Path filePath) {
+    // METHs
+    public String parseData(Path filePath) {
         String content = "";
         try {
             content = Files.readString(filePath);
@@ -19,11 +20,4 @@ public class MarkdownFileReader {
         return content;
     }
 
-    public String getData() {
-        return data;
-    }
-
-    public void setData(String data) {
-        this.data = data;
-    }
 }
