@@ -1,5 +1,6 @@
-package com.markone.presentation;
+package com.markone.presentation.view;
 
+import com.markone.presentation.controller.ReadFileController;
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
@@ -13,12 +14,11 @@ import java.nio.file.Path;
 
 public class MarkOneApp extends Application {
 
-    final private Path filePath = Path.of("targetMarkdownFile.md");
-    MarkdownFileReader markdownFileReader = new MarkdownFileReader();
+    ReadFileController readFileController = new ReadFileController();
     private TextArea contentArea;
 
-    private void initializeData() {
-        contentArea.setText(markdownFileReader.parseData(filePath));
+    private void handleReadFileData() {
+        contentArea.setText(readFileController.readFileData());
     }
 
     @Override
@@ -32,7 +32,7 @@ public class MarkOneApp extends Application {
 
         // Button
         Button button = new Button("Read File");
-        button.setOnAction(event -> initializeData());
+        button.setOnAction(event -> handleReadFileData());
 
         // Show
         VBox root = new VBox(10, button, contentArea);

@@ -1,2 +1,5 @@
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/markdown/models/header.java
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/markdown/parsers/parser.java
 /Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/infrastructure/MarkdownFileReader.java
-/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/presentation/MarkOneApp.java
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/presentation/controller/ReadFileController.java
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/presentation/view/MarkOneApp.java
