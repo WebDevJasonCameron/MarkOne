@@ -1,5 +1,14 @@
-/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/markdown/models/header.java
-/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/markdown/parsers/parser.java
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/enums/MarkdownStructures.java
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/interfaces/MarkdownStructure.java
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/markdown/models/Header.java
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/markdown/parsers/Parser.java
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/markdown/parsers/block/CodeBlockParser.java
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/markdown/parsers/block/HeadingParser.java
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/markdown/parsers/block/ListParser.java
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/markdown/parsers/block/ParagraphParser.java
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/markdown/parsers/inline/EmphasisParser.java
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/markdown/parsers/inline/InlineCodeParser.java
+/Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/domain/markdown/parsers/inline/LineParser.java
 /Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/infrastructure/MarkdownFileReader.java
 /Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/presentation/controller/ReadFileController.java
 /Users/jasoncameron/00_Drive/Core/Developer/App_Developer/MarkOne/src/main/java/com/markone/presentation/view/MarkOneApp.java

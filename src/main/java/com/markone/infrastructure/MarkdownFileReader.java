@@ -9,7 +9,7 @@ public class MarkdownFileReader {
     // ATTs
 
     // METHs
-    public String parseData(Path filePath) {
+    public String readData(Path filePath) {
         String content = "";
         try {
             content = Files.readString(filePath);

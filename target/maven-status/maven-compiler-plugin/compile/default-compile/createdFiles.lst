@@ -1,4 +1,13 @@
-com/markone/presentation/controller/ReadFileController.class
-com/markone/domain/markdown/parsers/parser.class
-com/markone/domain/markdown/models/header.class
+com/markone/domain/markdown/parsers/block/CodeBlockParser.class
+com/markone/domain/markdown/parsers/inline/LineParser.class
 com/markone/presentation/view/MarkOneApp.class
+com/markone/domain/markdown/parsers/block/ListParser.class
+com/markone/domain/markdown/parsers/Parser.class
+com/markone/domain/markdown/parsers/inline/EmphasisParser.class
+com/markone/domain/markdown/parsers/inline/InlineCodeParser.class
+com/markone/presentation/controller/ReadFileController.class
+com/markone/domain/markdown/parsers/block/ParagraphParser.class
+com/markone/domain/enums/MarkdownStructures.class
+com/markone/domain/interfaces/MarkdownStructure.class
+com/markone/domain/markdown/parsers/block/HeadingParser.class
+com/markone/domain/markdown/models/Header.class

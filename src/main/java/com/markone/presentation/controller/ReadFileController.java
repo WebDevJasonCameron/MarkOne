@@ -1,5 +1,7 @@
 package com.markone.presentation.controller;
 
+import com.markone.domain.interfaces.MarkdownStructure;
+import com.markone.domain.markdown.parsers.Parser;
 import com.markone.infrastructure.MarkdownFileReader;
 import javafx.scene.control.TextArea;
 
@@ -12,7 +14,9 @@ public class ReadFileController {
     MarkdownFileReader markdownFileReader = new MarkdownFileReader();
 
     public String readFileData() {
-        return markdownFileReader.parseData(filePath);
+        String output = markdownFileReader.readData(filePath);
+        MarkdownStructure markdownStructure = new Parser(output).parse();
+        return markdownStructure.toString();
     }
 
 
