@@ -29,8 +29,8 @@ public class Header implements MarkdownStructure {
 
     // OVRs
     @Override
-    public MarkdownStructure getStructure() {
-        return null;
+    public MarkdownStructures getStructure() {
+       return structure;
     }
 
     @Override

@@ -3,7 +3,6 @@ package com.markone.presentation.controller;
 import com.markone.domain.interfaces.MarkdownStructure;
 import com.markone.domain.markdown.parsers.Parser;
 import com.markone.infrastructure.MarkdownFileReader;
-import javafx.scene.control.TextArea;
 
 import java.nio.file.Path;
 

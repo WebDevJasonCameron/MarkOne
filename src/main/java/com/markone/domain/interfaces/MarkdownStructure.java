@@ -1,5 +1,9 @@
 package com.markone.domain.interfaces;
 
+import com.markone.domain.enums.MarkdownStructures;
+
 public interface MarkdownStructure {
-    MarkdownStructure getStructure();
+
+    MarkdownStructures getStructure();
+    String getContent();
 }
