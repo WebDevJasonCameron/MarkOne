@@ -8,9 +8,6 @@ import javafx.scene.control.TextArea;
 import javafx.scene.layout.VBox;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import com.markone.infrastructure.MarkdownFileReader;
-
-import java.nio.file.Path;
 
 public class MarkOneApp extends Application {
 

@@ -1,16 +1,17 @@
 package com.markone.presentation.renderers;
 
-import com.markone.domain.enums.MarkdownStructures;
 import com.markone.domain.interfaces.MarkdownStructure;
-
-import static com.markone.domain.enums.MarkdownStructures.HEADING;
+import com.markone.presentation.renderers.block.HeadingRenderer;
 
 public class MarkdownRenderer {
+
+    HeadingRenderer headingRenderer = new HeadingRenderer();
 
     public String renderOutput(MarkdownStructure markdownStructure) {
         switch (markdownStructure.getStructure()){
             case HEADING:
-                return "# " + markdownStructure.getContent();
+//                return "# " + markdownStructure.getContent();
+                return headingRenderer.renderHeader(markdownStructure);
             default:
                 return "";
         }
